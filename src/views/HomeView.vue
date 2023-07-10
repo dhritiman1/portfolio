@@ -1,18 +1,39 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div>
+    <router-link to="/" class="font-bold">dhritiman</router-link>
+  </div>
+  <div class="mt-12 font-medium">
+    <p>
+      hi i'm 20y/o a guy with a computer, currently in 3rd year of BCA. i'm
+      interested in exploring things related to computers and web. i'm also
+      interested in creating aesthetically pleasing and minimalistic interfaces.
+    </p>
+
+    <p class="my-3">i'm currently trying to get my life together.</p>
+
+    <!-- <p>you can check my cv here.</p> -->
+
+    <p class="mt-3">find me on:</p>
+
+    <ul class="list-disc pl-7 mt-1">
+      <li v-for="(item, index) in LINKS" :key="index">
+        <router-link
+          class="hover:underline underline-offset-2"
+          :to="item.url"
+          >{{ item.name }}</router-link
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="mt-8">
+    <p class="font-bold">blogs</p>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
-
-export default defineComponent({
-  name: "HomeView",
-  components: {
-    HelloWorld,
-  },
-});
+<script setup lang="ts">
+const LINKS = [
+  { name: "github", url: "https://github.com/dhritiman1" },
+  { name: "twitter", url: "https://twitter.com/dhritimanvwv" },
+  { name: "read.cv", url: "https://read.cv/vherte" },
+];
 </script>
