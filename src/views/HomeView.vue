@@ -13,7 +13,7 @@
 
     <!-- <p>you can check my cv here.</p> -->
 
-    <p class="mt-3">find me on:</p>
+    <p>find me on:</p>
 
     <ul class="list-disc pl-7 mt-1">
       <li v-for="(item, index) in LINKS" :key="index">
@@ -23,9 +23,9 @@
       </li>
     </ul>
   </div>
-  <div class="mt-8">
+  <!-- <div class="mt-8">
     <p class="font-bold">blogs</p>
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts">
