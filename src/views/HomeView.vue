@@ -17,11 +17,9 @@
 
     <ul class="list-disc pl-7 mt-1">
       <li v-for="(item, index) in LINKS" :key="index">
-        <router-link
-          class="hover:underline underline-offset-2"
-          :to="item.url"
-          >{{ item.name }}</router-link
-        >
+        <a class="hover:underline underline-offset-2" :href="item.url">
+          {{ item.name }}
+        </a>
       </li>
     </ul>
   </div>
