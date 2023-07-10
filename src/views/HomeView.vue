@@ -1,4 +1,14 @@
 <template>
+  <svg class="absolute">
+    <filter id="noiseFilter">
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="6.29"
+        numOctaves="6"
+        stitchTiles="stitch"
+      />
+    </filter>
+  </svg>
   <div>
     <router-link to="/" class="font-bold">dhritiman</router-link>
   </div>
