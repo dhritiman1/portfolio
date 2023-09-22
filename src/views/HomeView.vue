@@ -15,7 +15,7 @@
     </div>
     <div class="mt-12 font-medium">
       <p class="text-justify">
-        hi i'm 20y/o a guy with a computer, currently in 3rd year of BCA. i'm
+        hi i'm a 20y/o guy with a computer, currently in 3rd year of BCA. i'm
         interested in exploring things related to computers and web. i'm also
         interested in creating aesthetically pleasing and minimalistic
         interfaces.
