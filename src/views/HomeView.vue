@@ -15,13 +15,13 @@
     </div>
     <div class="mt-12 font-medium">
       <p class="text-justify">
-        hi i'm a 20y/o guy with a computer, currently in 3rd year of BCA. i'm
-        interested in exploring things related to computers and web. i'm also
-        interested in creating aesthetically pleasing and minimalistic
+        hi i'm a 20y/o guy with a computer, currently a BCA final year student.
+        i'm interested in exploring things related to computers and web. i'm
+        also interested in creating aesthetically pleasing and minimalistic
         interfaces.
       </p>
 
-      <p class="my-3">i'm currently trying to get my life together.</p>
+      <p class="my-3">i'm trying to get my life together rn.</p>
 
       <!-- <p>you can check my cv <a href="">here</a>.</p> -->
 
